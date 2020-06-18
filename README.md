@@ -1,1 +1,6 @@
 # Quizapp
+This is a simple application that will allow students to take a quiz, answer the questions and get a score.
+
+Brainstorming:
+
+Step 1. Create an array of variables that contain the questions
