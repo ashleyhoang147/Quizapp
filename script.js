@@ -27,9 +27,10 @@ var myQuestions = [
   function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
   function showQuestions(questions, quizContainer){
+  //Creating a place to store the output
     var output = [];
     var answers;
- //Creating a loop to check the answer submitted
+ //For each question, show the question along with all of its answer choices
     for(var i=0; i<questions.length; i++){
         answers = [];
         for(letter in questions[i].answers){
@@ -49,3 +50,7 @@ var myQuestions = [
     quizContainer.innerHTML = output.join('');
 }
 }
+//the questions and quizContainer values will come from the generateQuiz function
+showQuestions(questions, quizContainer);
+function showResults(questions, quizContainer, resultsContainer){
+    
