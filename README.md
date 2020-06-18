@@ -23,3 +23,5 @@ Step 6. For each correct question add 1 to score
 
 Step 7. Display score and all the correct answers
 
+![](assets/demo.png)
+
